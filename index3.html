@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible"
+          content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+   
+    <title>document</title> 
+  </head>
+  <body>
+    <!-- 3. Design a contact us form with all fields as required. -->
+    <form action = "https://www.guvi.in" method = "get">
+        <fieldset class = "contact1">
+        <h1 class = "contact">contact us</h1>
+        <p class = "para">we'd love to hear from you! leave a message below 
+                and we will get in touch with you shortly.</p>
+        <label for = "fname">First Name:</label>
+        <input type = "text" id = "fname" name = "fname" placeholder = "First Name" required/>
+        <br>
+        <label for = "lname">Last Name:</label>
+        <input type = "text" id = "lname" name = "lname" placeholder = "Last Name" required/>
+        <br>
+        <label for = "email">E-mail:</label>
+        <input type = "text" id = "email" name = "email" placeholder = "san@example.com" required/>
+        <br>
+        <label for = "phone">Phone Number:</label>
+        <input type = "text" id = "phone" name = "phone" placeholder = "2345678990" required/>
+        <br>
+        <label for = "contact">Contact me by:</label>
+        <input type = "radio" value = "E-mail" id = "E-mail" name = "contact"/><label for = "E-mail">E-mail</label>
+        <input type = "radio" value = "phone" id = "Phone" name = "contact"/><label for = "Phone">Phone</label><br>
+<!-- 6.In the form, add two radio buttons with grouping them for employee type(Salaried and own business) -->
+        <label for = "employee">employee type:</label>
+        <input type = "radio" value = "Salaried" id = "Salaried" name = "work"/><label for = "Salaried">Salaried</label>
+        <input type = "radio" value = "business" id = "business" name = "work"/><label for = "business">business</label>
+        <br>
+        <div>
+            <label for = "textarea">Text area:</label>
+            <textarea placeholder = "type your query" required></textarea>
+        </div>
+        <br>
+        <button type = "submit">submit</button>
+        </fieldset>
+    </form>  
+   </body>
+</html>
